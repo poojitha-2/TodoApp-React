@@ -29,7 +29,7 @@ const Todo = () => {
   
   }
   return (
-    <div style={{'font-family':'Caveat'}} className="h-[100vh] flex flex-col items-center justify-center">
+    <div style={{'font-family':'Caveat'}} className="h-[100vh] flex flex-col items-center justify-center bg-[#222]">
       <div className='  rounded p-8 bg-[#8EE4AF] '>
         <h1 className='text-center mb-4 text-4xl'>Todo List</h1>
         <form className='flex gap-1 mb-5 text-xl ' onSubmit={handlesubmit}>
